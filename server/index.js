@@ -261,10 +261,11 @@ server.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
 const axios = require("axios");
 
 const SELF_PING_INTERVAL = 10 * 60 * 1000; // 10 minutes
+const SELF_URL = "https://coding-collaborator-ai-compiler.onrender.com/health";
 
 setInterval(async () => {
   try {
-    const res = await axios.get(`http://localhost:${PORT}/health`);
+    const res = await axios.get(SELF_URL);
     console.log("Self-ping successful:", res.data);
   } catch (err) {
     console.error("Self-ping failed:", err.message);
