@@ -255,6 +255,22 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+
+//self polling code to avoid cold start
+
+const axios = require("axios");
+
+const SELF_PING_INTERVAL = 10 * 60 * 1000; // 10 minutes
+
+setInterval(async () => {
+  try {
+    const res = await axios.get(`http://localhost:${PORT}/health`);
+    console.log("Self-ping successful:", res.data);
+  } catch (err) {
+    console.error("Self-ping failed:", err.message);
+  }
+}, SELF_PING_INTERVAL);
+
 // require("dotenv").config({ path: "../.env" });
 // const express = require("express");
 // const http = require("http");
