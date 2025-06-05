@@ -81,7 +81,7 @@ CodeFuse/
 
 
 
-## Getting Started
+## Features
 
 ### Prerequisites
 
@@ -108,68 +108,60 @@ CodeFuse/
    npm install
    ```
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" alt="CodeFuse Logo" width="30%">
-</p>
+3. Open your browser and navigate to `http://localhost:3000`.
 
-<h1 align="center">CodeFuse: Real-Time Coding Collaborator</h1>
+### Testing
 
-<p align="center">
-    <img src="https://img.shields.io/github/license/adityaRaj369/CodeFuse?style=flat-square&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="License">
-    <img src="https://img.shields.io/github/last-commit/adityaRaj369/CodeFuse?style=flat-square&logo=git&logoColor=white&color=0080ff" alt="Last Commit">
-    <img src="https://img.shields.io/github/languages/top/adityaRaj369/CodeFuse?style=flat-square&color=0080ff" alt="Top Language">
-    <img src="https://img.shields.io/github/languages/count/adityaRaj369/CodeFuse?style=flat-square&color=0080ff" alt="Language Count">
-    <a href="https://codefuse-c88s.onrender.com" target="_blank">
-        <img src="https://img.shields.io/badge/Deployed%20Link-Visit%20Now-0080ff?style=flat-square&logo=vercel" alt="Deployed Link">
-    </a>
-</p>
+Run tests for both the client and server:
 
-## Video Demonstration
+```bash
+cd client
+npm test
 
-https://github.com/user-attachments/assets/28dfd551-1d6c-4f95-9baf-21c222620c22
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-  - [Directory Structure](#directory-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Deployment](#deployment)
-  - [Testing](#testing)
-- [Project Roadmap](#project-roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
----
-
-## Overview
-
-**CodeFuse** is a powerful, real-time coding platform designed for collaborative programming. It allows multiple developers to write, edit, and execute code simultaneously in a shared environment. Featuring AI-powered code suggestions, secure Google authentication, and a Dracula-themed editor, CodeFuse boosts productivity and fosters seamless teamwork for developers of all skill levels.
-
-**Deployed Link**: [https://codefuse-c88s.onrender.com](https://codefuse-c88s.onrender.com)
-
+cd ../server
+npm test
+```
 ---
 
 ## Features
 
-- **Real-Time Collaboration**: Edit code with multiple users in real time, with changes synced instantly via Socket.IO.
-- **AI-Powered Code Suggestions**: Leverage Google Gemini AI for context-aware code completions in JavaScript, Python, Java, C++, and C.
-- **Code Execution**: Run code directly in the editor using the Judge0 API, with support for input and output display.
-- **Code Saving**: Store code snippets in MongoDB, linked to user emails, with options to retrieve and delete saved codes.
-- **Google Authentication**: Secure login via Firebase Google Authentication for a seamless user experience.
-- **Syntax Highlighting**: Dracula-themed CodeMirror editor with support for JavaScript, Python, Java, C++, and C, featuring auto-close tags/brackets and line numbers.
-- **Room Management**: Create unique room IDs for collaboration sessions and share them with a copy-to-clipboard feature.
-- **Active Users Display**: View active users in a room, including usernames, emails, and profile photos.
-- **Responsive UI**: Modern, vampire-themed interface with intuitive modals for saving and viewing code snippets.
-- **Cross-Platform Deployment**: Hosted on Vercel (frontend) and Render (backend) for reliable performance.
+- **Real-Time Collaboration: Multiple developers can edit code simultaneously, with changes synced instantly via Socket.IO.
+- **AI-Powered Code Suggestions: Google Gemini AI provides context-aware code completions for JavaScript, Python, Java, C++, and C.
+- **Code Execution: Run code in the editor using the Judge0 API, with input and output support.
+- **Code Saving: Save code snippets to MongoDB, linked to user emails, with retrieval and deletion options.
+- ** Google Authentication: Secure login via Firebase Google Authentication for a seamless user experience.
+- **Syntax Highlighting: Dracula-themed CodeMirror editor with support for JavaScript, Python, Java, C++, and C, featuring auto-close tags/brackets and line numbers.
+- **Room Management: Generate unique room IDs for collaboration sessions, shareable via copy-to-clipboard.
+- **Active Users Display: Shows active users in a room with usernames, emails, and profile photos.
+- **Responsive UI: Modern, vampire-themed interface with modals for saving and viewing code snippets.
+- **Cross-Platform Deployment: Hosted on Vercel (frontend) and Render (backend) for reliable performance.
+
+## Project Roadmap
+
+- **Phase 1:** Implement core collaboration features (real-time editing, chat, and syntax highlighting).
+- **Phase 2:** Add authentication and authorization.
+- **Phase 3:** Integrate with GitHub and add version control features.
+- **Phase 4:** Deploy to a cloud platform (e.g., AWS , Azure , render, vercel).
 
 ---
 
-## Project Structure
+## Contributing
 
-### Directory Structure
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and open a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+- Inspired by tools like **Visual Studio Live Share** and **CodeSandbox**.
+- Thanks to the open-source community for their support and contributions.
