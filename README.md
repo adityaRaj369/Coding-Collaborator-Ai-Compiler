@@ -125,16 +125,16 @@ npm test
 
 ## Features
 
-- **Real-Time Collaboration: Multiple developers can edit code simultaneously, with changes synced instantly via Socket.IO.
-- **AI-Powered Code Suggestions: Google Gemini AI provides context-aware code completions for JavaScript, Python, Java, C++, and C.
-- **Code Execution: Run code in the editor using the Judge0 API, with input and output support.
-- **Code Saving: Save code snippets to MongoDB, linked to user emails, with retrieval and deletion options.
-- ** Google Authentication: Secure login via Firebase Google Authentication for a seamless user experience.
-- **Syntax Highlighting: Dracula-themed CodeMirror editor with support for JavaScript, Python, Java, C++, and C, featuring auto-close tags/brackets and line numbers.
-- **Room Management: Generate unique room IDs for collaboration sessions, shareable via copy-to-clipboard.
-- **Active Users Display: Shows active users in a room with usernames, emails, and profile photos.
-- **Responsive UI: Modern, vampire-themed interface with modals for saving and viewing code snippets.
-- **Cross-Platform Deployment: Hosted on Vercel (frontend) and Render (backend) for reliable performance.
+- Real-Time Collaboration: Multiple developers can edit code simultaneously, with changes synced instantly via Socket.IO.
+- AI-Powered Code Suggestions: Google Gemini AI provides context-aware code completions for JavaScript, Python, Java, C++, and C.
+- Code Execution: Run code in the editor using the Judge0 API, with input and output support.
+- Code Saving: Save code snippets to MongoDB, linked to user emails, with retrieval and deletion options.
+- Google Authentication: Secure login via Firebase Google Authentication for a seamless user experience.
+- Syntax Highlighting: Dracula-themed CodeMirror editor with support for JavaScript, Python, Java, C++, and C, featuring auto-close tags/brackets and line numbers.
+- Room Management: Generate unique room IDs for collaboration sessions, shareable via copy-to-clipboard.
+- Active Users Display: Shows active users in a room with usernames, emails, and profile photos.
+- Responsive UI: Modern, vampire-themed interface with modals for saving and viewing code snippets.
+- Cross-Platform Deployment: Hosted on Vercel (frontend) and Render (backend) for reliable performance.
 
 ## Project Roadmap
 
