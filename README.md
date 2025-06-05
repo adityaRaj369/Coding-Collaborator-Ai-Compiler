@@ -1,9 +1,16 @@
 
 Deployed Link:    https://coding-collaborator-ai-compiler.vercel.app
 
+![](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg)
+#(Real-Time Coding Collaborator with Gemini AI Code Syggestions and on board Compiler With Code Save Feature)
 
+![license](https://img.shields.io/github/license/adityaRaj369/CodeFuse?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff)
 
-(Real-Time Ai Suggested Coding Collaborator with Online Compiler)
+![last-commit](https://img.shields.io/github/last-commit/adityaRaj369/CodeFuse?style=default&logo=git&logoColor=white&color=0080ff)
+
+![repo-top-language](https://img.shields.io/github/languages/top/adityaRaj369/CodeFuse?style=default&color=0080ff)
+
+![repo-language-count](https://img.shields.io/github/languages/count/adityaRaj369/CodeFuse?style=default&color=0080ff)
 Video Demonstration:
 
 https://github.com/user-attachments/assets/110a9a26-f3f9-4a18-9510-8b096f7e03ab
