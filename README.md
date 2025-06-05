@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/110a9a26-f3f9-4a18-9510-8b096f7e03ab
     <img src="https://img.shields.io/github/languages/count/adityaRaj369/CodeFuse?style=default&color=0080ff" alt="repo-language-count">
 </p>
 <p align="center">
-    <a href="https://codefuse-c88s.onrender.com" target="_blank">
+    <a href="https://coding-collaborator-ai-compiler.vercel.app" target="_blank">
         <img src="https://img.shields.io/badge/Deployed%20Link-Visit%20Now-0080ff?style=default&logo=vercel" alt="Deployed Link">
     </a>
 </p>
