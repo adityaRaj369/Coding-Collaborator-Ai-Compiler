@@ -7,7 +7,7 @@ https://github.com/user-attachments/assets/110a9a26-f3f9-4a18-9510-8b096f7e03ab
 <p align="center">
     <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
 </p>
-<p align="center"><h1 align="center">CodeFuse (Real-Time Coding Collaborator)</h1></p>
+<p align="center"><h1 align="center">Real-Time Coding Collaborator with AI Code Suggestions and OnBoard Compiler</h1></p>
 <p align="center">
     <img src="https://img.shields.io/github/license/adityaRaj369/CodeFuse?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
     <img src="https://img.shields.io/github/last-commit/adityaRaj369/CodeFuse?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
