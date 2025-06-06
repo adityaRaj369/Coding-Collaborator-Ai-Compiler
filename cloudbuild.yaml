@@ -1,5 +1,5 @@
 steps:
-  # === Deploy Backend ===
+  # === Backend ===
   - name: 'gcr.io/cloud-builders/npm'
     dir: 'server'
     args: ['install']
@@ -14,7 +14,7 @@ steps:
       - '--platform=managed'
       - '--allow-unauthenticated'
 
-  # === Deploy Frontend ===
+  # === Frontend ===
   - name: 'gcr.io/cloud-builders/npm'
     dir: 'client'
     args: ['install']
@@ -34,3 +34,6 @@ steps:
       - '--allow-unauthenticated'
 
 timeout: '1200s'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
