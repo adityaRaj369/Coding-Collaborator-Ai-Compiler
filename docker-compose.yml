@@ -20,7 +20,7 @@ services:
       start_period: 40s
     networks:
       - app-network
-
+ 
   # Optional: Add MongoDB locally for development
   # mongodb:
   #   image: mongo:6.0
