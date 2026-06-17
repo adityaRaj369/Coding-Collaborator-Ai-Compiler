@@ -171,7 +171,7 @@ app.post("/api/save-code", async (req, res) => {
   const { userEmail, codeName, code, language } = req.body;
   console.log("Received save-code request:", { userEmail, codeName, language, codeLength: code?.length });
 
-  if (!userEmail || !codeName || !code || !language) {
+  if (!userEmail || !codeName || typeof code !== 'string' || !language) {
     const missingFields = [];
     if (!userEmail) missingFields.push("userEmail");
     if (!codeName) missingFields.push("codeName");
